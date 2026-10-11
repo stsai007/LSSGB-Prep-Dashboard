@@ -1,10 +1,10 @@
 # 📊 Lean Six Sigma DMAIC Learning Operations & Quality Control Tower
 
 [![Tableau Public](https://img.shields.io/badge/Tableau%20Public-Interactive%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/LSSGBExamPrepOperationsDashboard/1_Executive_DMAIC?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-[![Certification](https://img.shields.io/badge/IASSC-LSSGB%20Target%20Jan%202027-005A9C?style=for-the-badge&logo=target&logoColor=white)](#)
+[![IASSC LSSGB](https://img.shields.io/badge/Standard-IASSC%20ICGB%20POBOK-005A9C?style=for-the-badge&logo=target&logoColor=white)](https://iassc.org/six-sigma-certification/green-belt-certification/)
 [![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Automated%20Data%20Pipeline-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1TSA5N2r6VWVd0ulMDWcjT9Ol1nJfOG4KbNskIW5xVvY/edit?usp=sharing)
-[![Methodology](https://img.shields.io/badge/Methodology-DMAIC%20%7C%20Lean%20Six%20Sigma-6F42C1?style=for-the-badge)](#)
-[![Status](https://img.shields.io/badge/Pipeline%20Status-Active%20Phase%201-success?style=for-the-badge)](#)
+[![Methodology](https://img.shields.io/badge/Methodology-DMAIC%20%7C%20Lean%20Six%20Sigma-6F42C1?style=for-the-badge)](#-voice-of-customer-voc-to-ctq-matrix)
+[![Status](https://img.shields.io/badge/Pipeline%20Status-Active%20Phase%201-success?style=for-the-badge)](#-milestones--exam-roadmap)
 
 ---
 
