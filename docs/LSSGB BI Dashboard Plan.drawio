@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="9NqkTZ9tPUZkTS2Gf-j2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;block-beta\n    columns 2\n\n    %% 頂部標題 (跨 2 欄)\n    TITLE[\&quot;&lt;b&gt;LSSGB 備考運營儀表板架構 (4 區塊 DMAIC 閉環模型)&lt;/b&gt;\&quot;]:2\n\n    %% =======================\n    %% [左上] 區塊 1\n    %% =======================\n    block:B1:1\n        columns 1\n        B1_HEADER[\&quot;&lt;b&gt;[左上] 區塊 1: 成果品質總覽 (Define/Measure - Y)&lt;/b&gt;\&quot;]\n        \n        %% Option Button 切換條 (內部拆 2 欄)\n        block:B1_BTNS:1\n            columns 2\n            BTN_OPT1[\&quot;🔘 [Active] Knowledge Mastery\&quot;]\n            BTN_OPT2[\&quot;⚪ Practice Exam\&quot;]\n        end\n\n        B1_CONTENT[\&quot;&lt;b&gt;當前數據視圖 (動態切換):&lt;/b&gt;&lt;br/&gt;• 信心指數 (Confidence Level ≥ 3)&lt;br/&gt;• 掌握度 (Satisfaction Rate ≥ 4)&lt;br/&gt;• 核心公式/小抄累計建置量\&quot;]\n    end\n\n    %% =======================\n    %% [右上] 區塊 2\n    %% =======================\n    block:B2:1\n        columns 1\n        B2_HEADER[\&quot;&lt;b&gt;[右上] 區塊 2: 流程效率與精益浪費 (Measure - X)&lt;/b&gt;\&quot;]\n        B2_VIS[\&quot;&lt;b&gt;視覺化:&lt;/b&gt; VA / NVA 堆疊條形圖 + 子彈圖\&quot;]\n        B2_METRICS[\&quot;&lt;b&gt;監控指標:&lt;/b&gt;&lt;br/&gt;• 每週實際工時 vs 規格界限 (USL 120 / LSL 60)&lt;br/&gt;• 製程循環效率 PCE = VA / (VA + NVA)&lt;br/&gt;• DOWNTIME 8 大浪費耗時佔比\&quot;]\n    end\n\n    %% =======================\n    %% [左下] 區塊 3\n    %% =======================\n    block:B3:1\n        columns 1\n        B3_HEADER[\&quot;&lt;b&gt;[左下] 區塊 3: 統計製程管制 (Control - 變異)&lt;/b&gt;\&quot;]\n        B3_VIS[\&quot;&lt;b&gt;視覺化:&lt;/b&gt; 單值移動全距管制圖 (I-MR Chart)\&quot;]\n        B3_METRICS[\&quot;&lt;b&gt;監控指標:&lt;/b&gt;&lt;br/&gt;• NVA 浪費時間/工時變異率管制圖&lt;br/&gt;• 自動標註 UCL、CL、LCL (±3σ 界限)&lt;br/&gt;• 超出 UCL 特殊原因 (Special Cause) 報警\&quot;]\n    end\n\n    %% =======================\n    %% [右下] 區塊 4\n    %% =======================\n    block:B4:1\n        columns 1\n        B4_HEADER[\&quot;&lt;b&gt;[右下] 區塊 4: 根因診斷與對策 (Analyze/Improve - 行動)&lt;/b&gt;\&quot;]\n        B4_VIS[\&quot;&lt;b&gt;視覺化:&lt;/b&gt; 80/20 Pareto 複合圖 + 處方對策卡\&quot;]\n        B4_METRICS[\&quot;&lt;b&gt;監控指標:&lt;/b&gt;&lt;br/&gt;• 浪費維度 Pareto 排序 (鎖定前 80% 損耗)&lt;br/&gt;• 動態 Prescriptive 對策 (自動輸出 Kaizen 行動)\&quot;]\n    end\n\n    %% 樣式設定\n    classDef titleStyle fill:#2D3748,stroke:#1A202C,color:#FFF,font-weight:bold;\n    classDef b1Style fill:#EBF8FF,stroke:#3182CE,stroke-width:2px;\n    classDef b2Style fill:#F0FFF4,stroke:#38A169,stroke-width:2px;\n    classDef b3Style fill:#FEFCBF,stroke:#D69E2E,stroke-width:2px;\n    classDef b4Style fill:#FED7D7,stroke:#E53E3E,stroke-width:2px;\n    classDef btnOn fill:#3182CE,stroke:#2B6CB0,color:#FFF,font-weight:bold;\n    classDef btnOff fill:#EDF2F7,stroke:#CBD5E0,color:#718096;\n\n    class TITLE titleStyle;\n    class B1 b1Style;\n    class B2 b2Style;\n    class B3 b3Style;\n    class B4 b4Style;\n    class BTN_OPT1 btnOn;\n    class BTN_OPT2 btnOff;&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="37u4qJgkk144Jfxi5sev-74">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="n:B1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#EBF8FF;fillOpacity=50;strokeColor=#3182CE;strokeOpacity=20;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="" id="37u4qJgkk144Jfxi5sev-76">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;fillOpacity=50;strokeColor=#82b366;strokeOpacity=20;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;gradientColor=#97d077;" vertex="1">
+            <mxGeometry height="368" width="572" x="270" y="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Section 1: Outcome Quality Overview&amp;nbsp;(Define/Measure - Y)&lt;/b&gt;" mermaidId="n:B1_HEADER" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;[左上] 區塊 1: 成果品質總覽 (Define/Measure - Y)&lt;/b&gt;" id="37u4qJgkk144Jfxi5sev-77">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="112" width="556" x="278" y="158" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="n:B1_BTNS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);fillOpacity=50;strokeColor=light-dark(#aaaa33,#cccccc);strokeOpacity=20;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="" id="37u4qJgkk144Jfxi5sev-78">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;fillOpacity=50;strokeColor=#82b366;strokeOpacity=20;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="56" width="556" x="278" y="278" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="⚪ Practice Exam" mermaidId="n:BTN_OPT2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#EDF2F7;strokeColor=#CBD5E0;fontColor=#718096;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="⚪ Practice Exam" id="37u4qJgkk144Jfxi5sev-80">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#EDF2F7;strokeColor=#CBD5E0;fontColor=#718096;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="40" width="266" x="560" y="286" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Current Data View (Dynamic Toggle):&lt;/b&gt;&lt;br&gt;• Confidence Level (≥ 3)&lt;br&gt;• Mastery / Satisfaction Rate (≥ 4)&lt;br&gt;• Cumulative Core Formulas / Cheat Sheets Created&lt;div&gt;----------------------------------------------------------------------------------------------&lt;br&gt;&lt;div&gt;• Mock Exam Accuracy Rate (≥80%)&lt;/div&gt;&lt;div&gt;• Average Time per Question (≤90 s)&lt;/div&gt;&lt;div&gt;• Cumulative Incorrect Questions&lt;/div&gt;&lt;/div&gt;" mermaidId="n:B1_CONTENT" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;當前數據視圖 (動態切換):&lt;/b&gt;&#xa;• 信心指數 (Confidence Level ≥ 3)&#xa;• 掌握度 (Satisfaction Rate ≥ 4)&#xa;• 核心公式/小抄累計建置量" id="37u4qJgkk144Jfxi5sev-81">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="162" width="556" x="278" y="348" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="n:B2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#F0FFF4;fillOpacity=50;strokeColor=#38A169;strokeOpacity=20;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="" id="37u4qJgkk144Jfxi5sev-82">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f8cecc;fillOpacity=50;strokeColor=#b85450;strokeOpacity=20;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;gradientColor=#ea6b66;" vertex="1">
+            <mxGeometry height="368" width="572" x="850" y="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Section 2: Process Efficiency &amp;amp; Lean Wastes (Measure - X)&lt;/b&gt;" mermaidId="n:B2_HEADER" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;[右上] 區塊 2: 流程效率與精益浪費 (Measure - X)&lt;/b&gt;" id="37u4qJgkk144Jfxi5sev-83">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="858" y="158" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Visualization:&lt;/b&gt; VA / NVA Stacked Bar + Bullet Graph" mermaidId="n:B2_VIS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;視覺化:&lt;/b&gt; VA / NVA 堆疊條形圖 + 子彈圖" id="37u4qJgkk144Jfxi5sev-84">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="858" y="278" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Monitoring Metrics:&lt;/b&gt;&lt;br&gt;• Weekly Actual Hours vs Specification Limits (USL 120 / LSL 60)&lt;br&gt;• Process Cycle Efficiency (PCE = VA / (VA + NVA))&lt;br&gt;• Time Distribution across DOWNTIME 8 Wastes" mermaidId="n:B2_METRICS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;監控指標:&lt;/b&gt;&#xa;• 每週實際工時 vs 規格界限 (USL 120 / LSL 60)&#xa;• 製程循環效率 PCE = VA / (VA + NVA)&#xa;• DOWNTIME 8 大浪費耗時佔比" id="37u4qJgkk144Jfxi5sev-85">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="858" y="398" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="n:B3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#FEFCBF;fillOpacity=50;strokeColor=#D69E2E;strokeOpacity=20;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="" id="37u4qJgkk144Jfxi5sev-86">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#fff2cc;fillOpacity=50;strokeColor=#d6b656;strokeOpacity=20;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;gradientColor=#ffd966;" vertex="1">
+            <mxGeometry height="368" width="572" x="270" y="526" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Section 3: Statistical Process Control (Control - Variation)&lt;/b&gt;" mermaidId="n:B3_HEADER" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;[左下] 區塊 3: 統計製程管制 (Control - 變異)&lt;/b&gt;" id="37u4qJgkk144Jfxi5sev-87">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="278" y="534" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Visualization:&lt;/b&gt;&amp;nbsp;Individual and Moving Range Control Chart (I-MR Chart)" mermaidId="n:B3_VIS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;視覺化:&lt;/b&gt; 單值移動全距管制圖 (I-MR Chart)" id="37u4qJgkk144Jfxi5sev-88">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="278" y="654" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Monitoring Metrics:&lt;/b&gt;&lt;br&gt;• Control Chart for NVA Waste Time / Working Hours Variation Rate&lt;br&gt;• Auto-flag UCL, CL, LCL (±3σ Limits)&lt;br&gt;• Special Cause Alarm (Exceeding UCL)" mermaidId="n:B3_METRICS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;監控指標:&lt;/b&gt;&#xa;• NVA 浪費時間/工時變異率管制圖&#xa;• 自動標註 UCL、CL、LCL (±3σ 界限)&#xa;• 超出 UCL 特殊原因 (Special Cause) 報警" id="37u4qJgkk144Jfxi5sev-89">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="278" y="774" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="n:B4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#FED7D7;fillOpacity=50;strokeColor=#E53E3E;strokeOpacity=20;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="" id="37u4qJgkk144Jfxi5sev-90">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#e6d0de;fillOpacity=50;strokeColor=#996185;strokeOpacity=20;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;gradientColor=#d5739d;" vertex="1">
+            <mxGeometry height="368" width="572" x="850" y="526" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Section 4: Root Cause Diagnosis &amp;amp; Countermeasures (Analyze/Improve - Action)&lt;/b&gt;" mermaidId="n:B4_HEADER" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;[右下] 區塊 4: 根因診斷與對策 (Analyze/Improve - 行動)&lt;/b&gt;" id="37u4qJgkk144Jfxi5sev-91">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="858" y="534" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Visualization:&lt;/b&gt; 80/20 Pareto Combo Chart + Prescriptive Action Cards" mermaidId="n:B4_VIS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;視覺化:&lt;/b&gt; 80/20 Pareto 複合圖 + 處方對策卡" id="37u4qJgkk144Jfxi5sev-92">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="858" y="654" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Monitoring Metrics:&lt;/b&gt;&lt;br&gt;• Waste Dimension Pareto Ranking (Targeting Top 80% Losses)&lt;br&gt;• Dynamic Prescriptive Countermeasures (Auto-generated Kaizen Actions)" mermaidId="n:B4_METRICS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;監控指標:&lt;/b&gt;&#xa;• 浪費維度 Pareto 排序 (鎖定前 80% 損耗)&#xa;• 動態 Prescriptive 對策 (自動輸出 Kaizen 行動)" id="37u4qJgkk144Jfxi5sev-93">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="556" x="858" y="774" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="⚪ Knowledge Mastery" mermaidId="n:BTN_OPT2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#EDF2F7;strokeColor=#CBD5E0;fontColor=#718096;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="⚪ Practice Exam" id="37u4qJgkk144Jfxi5sev-94">
+          <mxCell parent="37u4qJgkk144Jfxi5sev-74" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#EDF2F7;strokeColor=#CBD5E0;fontColor=#718096;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="40" width="266" x="290" y="286" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

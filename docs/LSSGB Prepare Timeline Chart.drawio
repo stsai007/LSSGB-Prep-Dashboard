@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="qq16pDGZOdawOzAGXfha">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart TD\n    classDef stage fill:#F1F5F9,stroke:#64748B,stroke-width:1.5px;\n    classDef core fill:#FFFFFF,stroke:#94A3B8,stroke-width:1px;\n    classDef keypoint fill:#EFF6FF,stroke:#3B82F6,stroke-width:1.5px;\n    classDef pass fill:#FEF3C7,stroke:#D97706,stroke-width:2px;\n\n    subgraph Phase1 [\&quot;【第一階段】學期平時儲備期（即日起 – 12月中旬｜每週 1–2 hrs）\&quot;]\n        direction TB\n        M10[\&quot;&lt;b&gt;10 月：工具與框架對齊&lt;/b&gt;&lt;br/&gt;• 教材定錨：下載 CSSC 手冊 / ASQ Handbook&lt;br/&gt;• &lt;b&gt;DMAIC 框架：&lt;/b&gt;Define (Charter/SIPOC/CTQ) + Measure (VSM)&lt;br/&gt;• 實務對照：工作流程梳理套入 SIPOC\&quot;]:::keypoint\n        M11[\&quot;&lt;b&gt;11 月：統計與分析複習&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Analyze 工具：&lt;/b&gt;8大浪費、魚骨圖、5 Whys、Pareto&lt;br/&gt;• &lt;b&gt;品管統計：&lt;/b&gt;常態分佈、假設檢定 (p-value, Type I/II)、製程能力 (Cp, Cpk)\&quot;]:::keypoint\n        M12[\&quot;&lt;b&gt;12 月上旬：改善控制與期末收尾&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Improve &amp; Control：&lt;/b&gt;防呆 (Poka-Yoke)、FMEA (RPN)、SPC 管制圖選擇&lt;br/&gt;• 專注研究所期末課業交付，暫不刷題\&quot;]:::core\n        \n        M10 --&gt; M11 --&gt; M12\n    end\n\n    subgraph Phase2 [\&quot;【第二階段】冬季衝刺與刷題期（12/20 – 01/10｜每週 10–15 hrs）\&quot;]\n        direction TB\n        W1[\&quot;&lt;b&gt;第 1 週 (12/20–12/27)：體系地毯式串聯&lt;/b&gt;&lt;br/&gt;• 精讀考綱筆記 / 線上衝刺課&lt;br/&gt;• 提煉個人「公式與管制圖判讀小抄」\&quot;]:::core\n        W2[\&quot;&lt;b&gt;第 2 週 (12/28–01/03)：題庫高強度演練&lt;/b&gt;&lt;br/&gt;• 每日 50–100 題（依 DMAIC 階段訂正錯題與統計盲點）&lt;br/&gt;• 註冊 PeopleCert/IASSC 帳號並預約 1 月場次\&quot;]:::keypoint\n        W3[\&quot;&lt;b&gt;第 3 週 (01/04–01/10)：全真模擬與應試&lt;/b&gt;&lt;br/&gt;• 1–2 次 3小時/100題全真計時（答對率穩定 ≥ 80%）\&quot;]:::core\n        PASS[\&quot;🏆 &lt;b&gt;正式參加線上考試，取得 LSSGB 認證&lt;/b&gt;\&quot;]:::pass\n\n        W1 --&gt; W2 --&gt; W3 --&gt; PASS\n    end\n\n    M12 ==&gt; W1&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="Usfgp-9FF6Dvez-TIk3X-87">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="[Stage 1] Preparation (Effective Immediately – Dec | 1–2 hrs/week)" mermaidId="n:Phase1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="【第一階段】學期平時儲備期（即日起 – 12月中旬｜每週 1–2 hrs）" id="Usfgp-9FF6Dvez-TIk3X-88">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-87" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="468" width="719" x="66" y="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;October: Align Tools &amp;amp; Frameworks&lt;/b&gt;&lt;br&gt;•&amp;nbsp;&lt;span&gt;&lt;b&gt;Study Material Anchoring&lt;/b&gt;: ICGB POBOK / ASQ Handbook&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;br&gt;•&amp;nbsp;&lt;b&gt;DMAIC Framework&lt;/b&gt;: Define (Charter / SIPOC / CTQ) + Measure (VSM)&lt;br&gt;•&amp;nbsp;&lt;b&gt;Practical Mapping&lt;/b&gt;: Map existing workflows into SIPOC" mermaidId="n:M10" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;10 月：工具與框架對齊&lt;/b&gt;&#xa;• 教材定錨：下載 CSSC 手冊 / ASQ Handbook&#xa;• &lt;b&gt;DMAIC 框架：&lt;/b&gt;Define (Charter/SIPOC/CTQ) + Measure (VSM)&#xa;• 實務對照：工作流程梳理套入 SIPOC" id="Usfgp-9FF6Dvez-TIk3X-89">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-88" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="557" x="81" y="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;November: Review Statistics &amp;amp; Analytics&lt;/b&gt;&lt;br&gt;•&amp;nbsp;&lt;b&gt;Analyze Tools&lt;/b&gt;: 8 Wastes, Fishbone Diagram, 5 Whys, Pareto Chart&lt;br&gt;•&amp;nbsp;&lt;b&gt;Quality Statistics&lt;/b&gt;: Normal Distribution, Hypothesis Testing (p-value, Type I/II errors), Process Capability (Cp, Cpk)" mermaidId="n:M11" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;11 月：統計與分析複習&lt;/b&gt;&#xa;• &lt;b&gt;Analyze 工具：&lt;/b&gt;8大浪費、魚骨圖、5 Whys、Pareto&#xa;• &lt;b&gt;品管統計：&lt;/b&gt;常態分佈、假設檢定 (p-value, Type I/II)、製程能力 (Cp, Cpk)" id="Usfgp-9FF6Dvez-TIk3X-90">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-88" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="93" width="649" x="35" y="207" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;December: Improve, Control &amp;amp; Semester Wrap-up&lt;/b&gt;&lt;br&gt;•&amp;nbsp;&lt;b&gt;Improve &amp;amp; Control&lt;/b&gt;: Mistake-Proofing (Poka-Yoke), FMEA (RPN), SPC Control Chart Selection" mermaidId="n:M12" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=default;strokeColor=#94A3B8;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;12 月上旬：改善控制與期末收尾&lt;/b&gt;&#xa;• &lt;b&gt;Improve &amp; Control：&lt;/b&gt;防呆 (Poka-Yoke)、FMEA (RPN)、SPC 管制圖選擇&#xa;• 專注研究所期末課業交付，暫不刷題" id="Usfgp-9FF6Dvez-TIk3X-91">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-88" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=default;strokeColor=#94A3B8;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="93" width="626" x="47" y="350" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:M10-&gt;M11#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Usfgp-9FF6Dvez-TIk3X-92">
+          <mxCell edge="1" parent="Usfgp-9FF6Dvez-TIk3X-88" source="Usfgp-9FF6Dvez-TIk3X-89" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Usfgp-9FF6Dvez-TIk3X-90">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:M11-&gt;M12#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Usfgp-9FF6Dvez-TIk3X-93">
+          <mxCell edge="1" parent="Usfgp-9FF6Dvez-TIk3X-88" source="Usfgp-9FF6Dvez-TIk3X-90" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Usfgp-9FF6Dvez-TIk3X-91">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="[Stage 2] Practice Exam Phase (Jan 3 – Jan 16 | 10–15 hrs/week)" mermaidId="n:Phase2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="【第二階段】冬季衝刺與刷題期（12/20 – 01/10｜每週 10–15 hrs）" id="Usfgp-9FF6Dvez-TIk3X-94">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-87" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1">
+            <mxGeometry height="430" width="527" x="161" y="540" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:M12-&gt;W1#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeWidth=3.5;endSize=3;startSize=3;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Usfgp-9FF6Dvez-TIk3X-102">
+          <mxCell edge="1" parent="Usfgp-9FF6Dvez-TIk3X-87" source="Usfgp-9FF6Dvez-TIk3X-91" style="curved=1;startArrow=none;endArrow=block;endSize=3;strokeWidth=3.5;startSize=3;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" target="Usfgp-9FF6Dvez-TIk3X-96">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+              <mxPoint x="426" y="578" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Week 1 (Jan 3 – Jan 9): High-Intensity Question Bank Practice&lt;/b&gt;&lt;br&gt;• 50–100 questions daily (Review incorrect answers &amp;amp; statistical blind spots by DMAIC phase)&lt;br&gt;• Register PeopleCert/IASSC account and schedule January exam session" mermaidId="n:W2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;第 2 週 (12/28–01/03)：題庫高強度演練&lt;/b&gt;&#xa;• 每日 50–100 題（依 DMAIC 階段訂正錯題與統計盲點）&#xa;• 註冊 PeopleCert/IASSC 帳號並預約 1 月場次" id="Usfgp-9FF6Dvez-TIk3X-96">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-87" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
+            <mxGeometry height="130" width="457" x="197.5" y="580" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Week 2 (Jan 10 – Jan 16): Full Mock Exams &amp;amp; Test Day&lt;/b&gt;&lt;br&gt;• 1–2 timed full-length mock exams (3 hours / 100 questions, targeting consistent accuracy ≥ 80%)" mermaidId="n:W3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=default;strokeColor=#94A3B8;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;第 3 週 (01/04–01/10)：全真模擬與應試&lt;/b&gt;&#xa;• 1–2 次 3小時/100題全真計時（答對率穩定 ≥ 80%）" id="Usfgp-9FF6Dvez-TIk3X-97">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-87" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=default;strokeColor=#94A3B8;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
+            <mxGeometry height="80" width="432" x="208.5" y="760" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="🏆 &lt;b&gt;Take the official online exam and earn LSSGB certification&lt;/b&gt;" mermaidId="n:PASS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🏆 &lt;b&gt;正式參加線上考試，取得 LSSGB 認證&lt;/b&gt;" id="Usfgp-9FF6Dvez-TIk3X-98">
+          <mxCell parent="Usfgp-9FF6Dvez-TIk3X-87" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;gradientColor=#97d077;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
+            <mxGeometry height="50.26" width="408" x="220.5" y="890" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:W2-&gt;W3#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Usfgp-9FF6Dvez-TIk3X-100">
+          <mxCell edge="1" parent="Usfgp-9FF6Dvez-TIk3X-87" source="Usfgp-9FF6Dvez-TIk3X-96" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="Usfgp-9FF6Dvez-TIk3X-97">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:W3-&gt;PASS#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Usfgp-9FF6Dvez-TIk3X-101">
+          <mxCell edge="1" parent="Usfgp-9FF6Dvez-TIk3X-87" source="Usfgp-9FF6Dvez-TIk3X-97" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="Usfgp-9FF6Dvez-TIk3X-98">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
