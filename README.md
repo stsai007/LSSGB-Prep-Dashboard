@@ -64,7 +64,7 @@ Data ingestion and transformation execute on an automated cloud-refresh schedule
 
 ```
 ┌────────────────────────┐      Daily Cloud Sync      ┌─────────────────────────┐
-│   Google Sheets DB     │ ─────────────────────────▶ │  Tableau Cloud/Public   │
+│   Google Sheets DB     │ ────────────────────────▶ │  Tableau Cloud/Public   │
 │ (Fact & Dim Schedules) │                            │ (Extract Refresh Engine)│
 └────────────────────────┘                            └─────────────────────────┘
             │                                                      │
@@ -114,7 +114,7 @@ The operational dashboard is built on an enterprise 3-tab layout structured for 
 ┌──────────────────────┬────────────────────────────────┬──────────────────────────────────────────┐
 │ Trigger Condition    │ Immediate Containment          │ Root Cause Diagnostic & Countermeasure   │
 ├──────────────────────┼────────────────────────────────┼──────────────────────────────────────────┤
-│ Weekly Study > 120m  │ Stop session immediately.      │ Inspect Pareto chart for top NVA waste.   │
+│ Weekly Study > 120m  │ Stop session immediately.      │ Inspect Pareto chart for top NVA waste.  │
 │ (Breach of USL)      │ No carryover allowed.          │ If Waiting: Restructure AI prompts.      │
 │                      │                                │ If Over-processing: Cap notes to 2 pgs.  │
 ├──────────────────────┼────────────────────────────────┼──────────────────────────────────────────┤
