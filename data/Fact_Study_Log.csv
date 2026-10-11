@@ -1,0 +1,5 @@
+Phase_Stage,Date,Week_Num,POBOK_Topic,Activity_Type,VA_Min,NVA_Min,Waste_Type,Confidence_Level,Satisfaction_Score,Questions_Attempted,Questions_Correct,Avg_Seconds_Per_Q
+Stage 1: Knowledge Mastery,10/9/2026,W1,1.1 & 1.2,Notes,36,9,Waiting,5,5,,,0
+Stage 1: Knowledge Mastery,10/9/2026,W1,1.1 & 1.2,Calculation,3,1,Over-processing,4,5,,,0
+Stage 1: Knowledge Mastery,10/9/2026,W1,1.1 & 1.2,Nlm Flashcards,25,4,Waiting,4,3,,,0
+Stage 1: Knowledge Mastery,10/9/2026,W1,1.1 & 1.2,Real-world Chart,14,2,Waiting,5,5,,,0

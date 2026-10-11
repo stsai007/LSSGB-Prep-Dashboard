@@ -1,0 +1,110 @@
+Week_Num,DMAIC_Phase,POBOK_Topic,POBOK_Topic_Description,Key_Focus_Items,Standard_Planned_Min
+W1,Define,1.1 & 1.2,"1.1 The Basics of Six Sigma
+1.1.1 Meanings of Six Sigma
+1.1.2 General History of Six Sigma & Continuous Improvement
+1.1.3 Deliverables of a Lean Six Sigma Project
+1.1.4 The Problem Solving Strategy Y = f(x)
+1.1.5 Voice of the Customer, Business and Employee
+1.1.6 Six Sigma Roles & Responsibilities
+
+1.2 The Fundamentals of Six Sigma
+1.2.1 Defining a Process
+1.2.2 Critical to Quality Characteristics (CTQ’s)
+1.2.3 Cost of Poor Quality (COPQ)
+1.2.4 Pareto Analysis (80:20 rule)
+1.2.5 Basic Six Sigma Metrics
+a. including DPU, DPMO, FTY, RTY Cycle Time, deriving these metrics and these metrics","Six Sigma History, Belt Roles, Y=f(x), CTQ (Critical to Quality), COPQ (Cost of Poor Quality), DPU / DPMO / RTY Formula Derivations",75
+W2,Define,1.3 & 1.4,"1.3 Selecting Lean Six Sigma Projects
+1.3.1 Building a Business Case & Project Charter
+1.3.2 Developing Project Metrics
+1.3.3 Financial Evaluation & Benefits Capture
+
+1.4 The Lean Enterprise
+1.4.1 Understanding Lean
+1.4.2 The History of Lean
+1.4.3 Lean & Six Sigma
+1.4.4 The Seven Elements of Waste
+a. Overproduction, Correction, Inventory, Motion, Overprocessing, Conveyance, Waiting.
+1.4.5 5S
+a. Sort, Straighten, Shine, Standardize, Self-Discipline","Project Charter Structure, 7 Wastes (Muda) Definitions, 5S Methodology",65
+W3,Measure,2.1 & 2.2,"2.1 Process Definition
+2.1.1 Cause & Effect / Fishbone Diagrams
+2.1.2 Process Mapping, SIPOC, Value Stream Map
+2.1.3 X-Y Diagram
+2.1.4 Failure Modes & Effects Analysis (FMEA)
+
+2.2 Six Sigma Statistics
+2.2.1 Basic Statistics
+2.2.2 Descriptive Statistics
+2.2.3 Normal Distributions & Normality
+2.2.4 Graphical Analysis","Fishbone Diagram (Ishikawa), SIPOC, VSM (Value Stream Mapping), FMEA (RPN Calculation), Normal Distribution Interpretation",85
+W4,Measure,2.3 & 2.4,"2.3 Measurement System Analysis
+2.3.1 Precision & Accuracy
+2.3.2 Bias, Linearity & Stability
+2.3.3 Gage Repeatability & Reproducibility
+2.3.4 Variable & Attribute MSA
+
+2.4 Process Capability
+2.4.1 Capability Analysis
+2.4.2 Concept of Stability
+2.4.3 Attribute & Discrete Capability
+2.4.4 Monitoring Techniques","Gage R&R (Repeatability & Reproducibility), Cp/Cpk Formulas & Acceptance Thresholds",95
+W5,Analyze,3.1 & 3.2,"3.1 Patterns of Variation
+3.1.1 Multi-Vari Analysis
+3.1.2 Classes of Distributions
+
+3.2 Inferential Statistics
+3.2.1 Understanding Inference
+3.2.2 Sampling Techniques & Uses
+3.2.3 Central Limit Theorem","Multi-Vari Chart Interpretation, Sampling Methods, Central Limit Theorem (CLT)",70
+W6,Analyze,3.3,"3.3 Hypothesis Testing
+3.3.1 General Concepts & Goals of Hypothesis Testing
+3.3.2 Significance; Practical vs. Statistical
+3.3.3 Risk; Alpha & Beta
+3.3.4 Types of Hypothesis Test","Hypothesis Testing Fundamentals, Alpha/Beta Risks (Type I & II Errors), p-value Interpretation Rules",75
+W7,Analyze,3.4,"3.4 Hypothesis Testing with Normal Data
+3.4.1 1 & 2 sample t-tests
+3.4.2 1 sample variance
+3.4.3 One Way ANOVA
+a. Including Tests of Equal Variance, Normality Testing and Sample Size calculation, performing tests and interpreting results.","1-Sample / 2-Sample t-Tests, One-way / Two-way ANOVA, Normality Testing",110
+W8,Analyze,3.5,"3.5 Hypothesis Testing with Non-Normal Data
+3.5.1 Mann-Whitney
+3.5.2 Kruskal-Wallis
+3.5.3 Mood’s Median
+3.5.4 Friedman
+3.5.5 1 Sample Sign
+3.5.6 1 Sample Wilcoxon
+3.5.7 One and Two Sample Proportion
+3.5.8 Chi-Squared (Contingency Tables)
+a. Including Tests of Equal Variance, Normality Testing and Sample Size calculation, performing tests and interpreting results.","Non-parametric Tests (Mann-Whitney, Kruskal-Wallis, Mood's Median), Chi-Square Test, Test Selection Decision Tree",115
+W9,Improve,4.1,"4.1 Simple Linear Regression
+4.1.1 Correlation
+4.1.2 Regression Equations
+4.1.3 Residuals Analysis","Correlation Coefficient r, Coefficient of Determination R^2, Regression Equation, Residual Analysis",70
+W10,Improve,4.2,"4.2 Multiple Regression Analysis
+4.2.1 Non- Linear Regression
+4.2.2 Multiple Linear Regression
+4.2.3 Confidence & Prediction Intervals
+4.2.4 Residuals Analysis
+4.2.5 Data Transformation, Box Cox","Multiple Linear Regression, Prediction Intervals, Box-Cox Transformation Timing",90
+W11,Control,5.1,"5.1 Lean Controls
+5.1.1 Control Methods for 5S
+5.1.2 Kanban
+5.1.3 Poka-Yoke (Mistake Proofing)","5S Control Plan, Kanban System Logic, Poka-Yoke (Mistake Proofing) Levels",60
+W12,Control,5.2,"5.2 Statistical Process Control (SPC)
+5.2.1 Data Collection for SPC
+5.2.2 I-MR Chart
+5.2.3 Xbar-R Chart
+5.2.4 U Chart
+5.2.5 P Chart
+5.2.6 NP Chart
+5.2.7 Xbar-S Chart
+5.2.8 CuSum Chart
+5.2.9 EWMA Chart
+5.2.10 Control Methods
+5.3 Six Sigma Control Plans
+5.3.1 Cost Benefit Analysis
+5.3.2 Elements of the Control Plan
+5.3.3 Elements of the Response Plan","Variable vs. Attribute Control Chart Selection ((I-MR, Xbar-R, p/np/c/u), Control Plan Structure",120
+W13,Sprint_Drill,Drill,High-Intensity Question Bank Drill & Defect Logging,"Daily Practice (50–100 Questions), DMAIC Error Tracking & Concept Reinforcement",600
+W14,Mock_Exam,Mock,Full-Length Timed Simulation (100 Qs / 3 hrs),"3-Hour Timed Mock Exam, Target Accuracy Stability >= 80%, Official Exam Sitting",600
